@@ -1,0 +1,21 @@
+/* *{ */
+    /* background-color: rgb(156, 237, 215); */
+/* } */
+/*body{ 
+    background-image: url("pic/Mate.jpg") 
+} */
+p{
+    text-align: center;
+    font-size: 0.9em;
+    font-style: normal;
+    font-family: Verdana;
+    color: rgb(4, 248, 12);
+}
+.bodyindex {
+    background-image: url("img/paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario{
+    background-color: lightslategray;
+}
