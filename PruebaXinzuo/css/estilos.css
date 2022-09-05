@@ -2,13 +2,13 @@ body{
     background-color: lightgrey;
 }
 
-#prueba-slider{
+/* #prueba-slider{
  font-family: sans-serif;
  margin: 15px;
  background-color: white;
- max-width: 1400px;
+ max-width: 800px;
  width: 100%;
- padding: 30px;
+ padding: 50px;
  box-sizing: border-box;
 }
 
@@ -18,23 +18,23 @@ body{
    list-style: none;
 }
 
-#prueba-slider > ul.slider{
+#prueba-slider > ul.slider{ 
  position: relative;
  max-width:800px;
  width: 100%;
  height: 300px;
 }
 
-#prueba-slider > ul.slider h1{
+/* #prueba-slider > ul.slider h1{
  position: absolute;
  background-color: rgba(255, 255, 255, 0.6);
  padding: 10px;
  left: 50%;
  top: 100px;
  transform: translate(-50%, -50%);
-}
+} */
 
-#prueba-slider > ul.slider li {
+/* #prueba-slider > ul.slider li {
    position: absolute;
    left: 0px;
    top: 0px;
@@ -45,23 +45,23 @@ body{
    background:#fff;
 }
 
-#prueba-slider > ul.slider li img{
- width: 30%;
- height:150px;
+#prueba-slider > ul.slider li img{ 
+ width: 100%;
+ height:600px;
  object-fit: cover;
 }
 
 #prueba-slider > ul.slider li:first-child {
-   opacity: 1; /*Mostramos el primer <li>*/
+   opacity: 1; /*Mostramos el primer <li>
 }
 
 #prueba-slider > ul.slider li:target {
-   opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+   opacity: 1; /*Mostramos el <li> del enlace que pulsemos
 }
 
 #prueba-slider > .menu{
  text-align: center;
- margin: 20px;
+ margin: 200px;
 }
 
 #prueba-slider > .menu li{
@@ -74,9 +74,73 @@ body{
  color: white;
  text-decoration: none;
  background-color: grey;
- padding: 10px;
+ padding: 20px;
  width: 20px;
  height: 20px;
  font-size: 20px;
  border-radius: 100%;
+} */
+/* nav ul li{
+   display: inline-block;
+   padding-right: 10px; 
+}
+.span-ul{
+   text-align: right;
+}
+/* nav span{
+   display: inline-block;
+} */
+/* nav ul li ul li{
+   display: inline-block;
+   padding-right: 10px; 
+} */
+#menu ul {
+   list-style:none;
+   margin:0;
+   padding:0;
+  }
+  #menu ul li {
+   background-color:#2e518b;
+  }
+  #menu ul a {
+   display:block;
+   color:#fff;
+   text-decoration:none;
+   font-weight:400;
+   font-size:15px;
+   padding:10px;
+   font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   text-transform:uppercase;
+   letter-spacing:1px;
+  }
+  #menu ul li {
+   position:relative;
+   float:left;
+   margin:0;
+   padding:0;
+  }
+  #menu ul li:hover {
+   background:#5b78a7;
+  }
+  #menu ul ul {
+   display:none;
+   position:absolute;
+   top:100%;
+   left:0;
+   background:#eee;
+   padding:0;
+  }
+  #menu ul ul li {
+   float:none;
+   width:150px
+  }
+  #menu ul ul a {
+   line-height:120%;
+   padding:10px 15px;
+  }
+  #menu ul li:hover > ul {
+   display:block;
+  }
+  .cabecera{
+   text-align: :center;
 }
