@@ -23,7 +23,7 @@ body{
  max-width:800px;
  width: 100%;
  height: 300px;
-}
+} */
 
 /* #prueba-slider > ul.slider h1{
  position: absolute;
@@ -49,17 +49,17 @@ body{
  width: 100%;
  height:600px;
  object-fit: cover;
-}
+} */
 
-#prueba-slider > ul.slider li:first-child {
-   opacity: 1; /*Mostramos el primer <li>
-}
+/* #prueba-slider > ul.slider li:first-child {
+   opacity: 1; Mostramos el primer <li>
+}*/
 
-#prueba-slider > ul.slider li:target {
-   opacity: 1; /*Mostramos el <li> del enlace que pulsemos
-}
+/* #prueba-slider > ul.slider li:target {
+   opacity: 1; Mostramos el <li> del enlace que pulsemos
+} */
 
-#prueba-slider > .menu{
+/* #prueba-slider > .menu{
  text-align: center;
  margin: 200px;
 }
@@ -67,9 +67,9 @@ body{
 #prueba-slider > .menu li{
  display: inline-block;
  text-align: center;
-}
+} */
 
-#prueba-slider > .menu li a{
+/* #prueba-slider > .menu li a{
  display: inline-block;
  color: white;
  text-decoration: none;
@@ -79,18 +79,18 @@ body{
  height: 20px;
  font-size: 20px;
  border-radius: 100%;
-} */
-/* nav ul li{
+}
+nav ul li{
    display: inline-block;
    padding-right: 10px; 
 }
 .span-ul{
    text-align: right;
 }
-/* nav span{
+nav span{
    display: inline-block;
-} */
-/* nav ul li ul li{
+}
+nav ul li ul li{
    display: inline-block;
    padding-right: 10px; 
 } */
@@ -142,5 +142,39 @@ body{
    display:block;
   }
   .cabecera{
-   text-align: :center;
+   text-align:center;
+}
+.slider{
+   width: 95%;
+   margin: auto;
+   overflow:hidden;
+}
+.slider ul{
+   display: flex;
+   padding: 0;
+   width: 400%;
+   animation: cambio 20s infinite alternate;
+  
+}
+.slider li{
+   width: 100%;
+   list-style: none;
+}
+.slider img{
+   width: 100%;
+   padding: 10px;
+   margin: 50px;
+}
+@keyframes cambio{
+   0%{margin-left: 0;}
+   20%{margin-left: 0;}
+   
+   25%{margin-left: -100%;}
+   45%{margin-left: -100%;}
+
+   50%{margin-left: -200%;}
+   70%{margin-left: -200%;}
+
+   75%{margin-left: -300%;}
+   100%{margin-left: -300%;}
 }
